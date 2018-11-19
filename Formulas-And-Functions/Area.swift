@@ -21,7 +21,10 @@ import Foundation
  
  */
 func forSquareWith(sideLength s : Double) -> Double {
+//func  NAME      Arg Label  Peramiter name : Data Type
+    
     let result = pow(s, 2.0)
+//                   base exponent 
     return result
 }
 
@@ -41,5 +44,11 @@ func forSquareWith(sideLength s : Double) -> Double {
 func forRectangleWith(length l : Double, width w : Double) -> Double {
     
     // Complete this function
-    return 0.0
+    let result = l * w
+    return result
 }
+func forParallelangamWith(base b : Double, height h : Double) -> Double {
+    let res = b * h
+    return res
+}
+
