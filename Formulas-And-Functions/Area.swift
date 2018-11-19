@@ -51,4 +51,12 @@ func forParallelangamWith(base b : Double, height h : Double) -> Double {
     let res = b * h
     return res
 }
+func forTriangleWith(base b : Double, height h : Double) -> Double {
+    let trig = 1/2 * b * h
+    return trig
+}
+func forCircleWith( range r : Double) -> Double{
+    let circ = Double.pi * r * r
+    return circ
+}
 

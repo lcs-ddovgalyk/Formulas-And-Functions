@@ -19,7 +19,15 @@ let m = 10.0
 let n = 2.0
 let areaOfRectangle = forRectangleWith(length: m, width: n)
 print(areaOfRectangle)
+//parallelogram
 let b = 10.0
 let h = 5.0
 let areaOfParallelangam = forParallelangamWith(base: b, height: h)
 print("Area is parralelagram is: \(areaOfParallelangam)")
+//triangle 
+let areaOfTriangle = forTriangleWith(base: b, height: h)
+print("Area of a triangle is: \(areaOfTriangle)")
+//Circle
+let r = 5.0
+let areaOfCircle = forCircleWith(range: r)
+print("Area of a circle is \(areaOfCircle)")
